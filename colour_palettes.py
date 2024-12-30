@@ -1,0 +1,1 @@
+palette_1 = ["B846FD", "F5DAFE", "4C39FD", "F7FEFF", "F6DCFD"]
