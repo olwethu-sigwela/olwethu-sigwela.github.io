@@ -6,6 +6,14 @@
 	--c2: 32ch;
 }
 
+
+@font-face {
+	font-family: "Rockstar";
+	src:
+	  url("fonts/Rockstar-ExtraBold.otf")
+	  
+  }
+
 html,
 body {
 	/*https://www.bram.us/2016/05/02/prevent-overscroll-bounce-in-ios-mobilesafari-pure-css/*/
@@ -112,4 +120,36 @@ main div {
 }
 .invisible {
 	visibility: hidden;
+}
+
+.the_header{
+	position: relative;
+	z-index: 10;
+	background-color: #F6DCFD;
+	/* border: thin solid #4C39FD; */
+	display: flex;
+	flex-direction:column;
+}
+
+.name {
+	font-family: Rockstar;
+	font-size: 11rem;
+	color: #F6DCFD;
+	-webkit-text-stroke-color: #4C39FD;
+	-webkit-text-stroke-width: 1px;
+	display:block;
+}
+
+.menu {
+	font-family: Rockstar;
+	font-size: 5rem;
+	
+	-webkit-text-stroke-color: #4C39FD;
+	-webkit-text-stroke-width: 1px;
+	display: block;
+}
+
+.menu a {
+
+	color: #F6DCFD;
 }
