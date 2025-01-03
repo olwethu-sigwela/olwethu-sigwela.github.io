@@ -108,426 +108,6 @@ main div {
 } */
 
 
-@media only screen and (max-width: 500px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 17%;	
-	}
-
-	.project {
-		flex-direction: column;
-		height: 100vh;
-	}
-
-	.project_image {
-
-		position: relative;
-		left: 0%;
-		top: 0%;
-		width: 100%;
-		height:60%;
-		/* border: thin solid #EEEDF0ff; */
-	
-	}
-
-
-	
-	.project_image_container {
-	
-		position: relative;
-		top: 5%;
-		left: 5%;
-		height: 90%;
-		width: 90%;
-		border: thin solid #EEEDF0ff;
-	
-	
-	}
-	
-	.project_details {
-		position: relative;
-		/* left: 60%; */
-		/* top: 8%; */
-		width: 100%;
-		height:40%;
-		/* border: thin solid #EEEDF0ff; */
-		display: flex;
-		flex-direction: column;
-		font-family: Consolas;
-		text-align: right;
-
-
-	
-	}
-	
-
-	
-	.project_name {
-		position: relative;
-		top: 5%;
-		width: 100%;
-		height: 20%;
-		/* border: thin solid #EEEDF0ff; */
-		font-size: 3.2rem;
-		font-weight: bold;
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	.project_languages {
-		position: relative;
-		top: 16%;
-		width: 100%;
-		height: 12%;
-		font-size: 1.2rem;
-		/* border: thin solid #EEEDF0ff; */
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	.span_languages {
-	
-		font-weight: bold;
-	
-	}
-	
-	
-	.project_github {
-		position: relative;
-		top: 28%;
-		width: 100%;
-		height: 7%;
-		/* border: thin solid #EEEDF0ff; */
-	
-		
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	.project_github a {
-	
-		color: #8FB6C3;
-		text-decoration: underline;
-		font-size: 1.5rem;
-	
-	}
-	
-	.project_description {
-		position: relative;
-		top: 34%;
-		width: 100%;
-		height: 71%;
-		font-size: 1.2rem;
-		/* border: thin solid #EEEDF0ff; */
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	
-	.span_description {
-	
-		font-weight: bold;
-	
-	}
-
-	
-
-}
-
-
-@media only screen and (min-width: 500px){
-
-	.the_header {
-		visibility: visible;
-	}
-
-	.the_header_mobile{
-		visibility: hidden;
-	}
-
-	.name_mobile{
-		visibility: hidden;
-	}
-
-	.project{
-
-	flex-direction: row;
-	}
-
-	.project_image {
-
-		position: relative;
-		left: 0%;
-		top: 0%;
-		width: 60%;
-		height:100%;
-		/* border: thin solid #EEEDF0ff; */
-	
-	}
-	
-	.project_image_container {
-	
-		position: relative;
-		top: 5%;
-		left: 5%;
-		height: 90%;
-		width: 90%;
-		border: thin solid #EEEDF0ff;
-	
-	
-	}
-	
-	.project_details {
-		position: relative;
-		/* left: 60%; */
-		top: 8%;
-		width: 40%;
-		height:92%;
-		/* border: thin solid #EEEDF0ff; */
-		display: flex;
-		flex-direction: column;
-		font-family: Consolas;
-	
-	}
-	
-	/* .project_details div {
-	
-		position: relative;
-		width: 100%;
-		height: 20%;
-		border: thin solid #EEEDF0ff;
-		background-color: #EEEDF0ff;
-	} */
-	
-	.project_name {
-		position: relative;
-		width: 100%;
-		height: 10%;
-		/* border: thin solid #EEEDF0ff; */
-		font-size: 3.2rem;
-		font-weight: bold;
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	.project_languages {
-		position: relative;
-		width: 100%;
-		height: 12%;
-		font-size: 1.2rem;
-		/* border: thin solid #EEEDF0ff; */
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	.span_languages {
-	
-		font-weight: bold;
-	
-	}
-	
-	
-	.project_github {
-		position: relative;
-		width: 100%;
-		height: 7%;
-		/* border: thin solid #EEEDF0ff; */
-	
-		
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	.project_github a {
-	
-		color: #8FB6C3;
-		text-decoration: underline;
-		font-size: 1.5rem;
-	
-	}
-	
-	.project_description {
-		position: relative;
-		width: 85%;
-		height: 71%;
-		font-size: 1.2rem;
-		/* border: thin solid #EEEDF0ff; */
-		/* background-color: #EEEDF0ff; */
-	
-	}
-	
-	
-	.span_description {
-	
-		font-weight: bold;
-	
-	}
-
-}
-
-
-@media only screen and (max-width: 465px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 14%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 448px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 11%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 432px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 7%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 415px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 4%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 400px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 1%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 389px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 0%;	
-	}
-
-	
-
-}
-
-/* @media only screen and (min-width: 500px){
-
-	
-.name_mobile {
-		
-	left: 19%;	
-}
-	
-
-} */
-
-
-
-
-@media only screen and (max-width: 500px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-	}
-
-}
-
-
-
-
-
-
 /* -- smaller screens ------------------------------------------- */
 @media only screen and (max-width: 120ch){
 	/* body {
@@ -813,15 +393,12 @@ main div {
 	height: 50%;
 	width: 30%;
 	background-color: #012456ff;;
-	border-bottom: 4px solid #EEEDF0ff;
-	border-right: 4px solid #EEEDF0ff;
-	
+	border: thin solid #EEEDF0ff;
 }
 
 .the_header_mobile a {
-	top: 0%;
 
-	height: 54%;
+	height: 39%;
 	width: 100%;
 	/* border: thin solid #EEEDF0ff; */
 	display: block;
@@ -834,10 +411,10 @@ main div {
 	z-index: 20;
 	position: absolute;
 	bottom: 0%;
-	/* left: 15%; */
+	right: 0%;
 	width: 40%;
 	height: 30%;
-	/* background-color: #012456ff;; */
+	background-color: #012456ff;;
 	/* border: thin solid #EEEDF0ff; */
 
 	text-align: center;
@@ -849,7 +426,6 @@ main div {
 	-webkit-text-stroke-width: 2px;
 	display: flex;
 	flex-direction: column;
-	
 }
 
 .filler_mobile {
@@ -903,7 +479,7 @@ main div {
 	top: 33%;
 	width: 100%;
 	height: 67%;
-	/* border: thin solid #EEEDF0ff; */
+	border: thin solid #EEEDF0ff;
 }
 
 .project {
@@ -911,22 +487,22 @@ main div {
 	position: relative;
 	height: 100%;
 	width: 100%;
-	/* border: thin solid #EEEDF0ff; */
+	border: thin solid #EEEDF0ff;
 	display:flex;
-	/* flex-direction: row; */
+	flex-direction: row;
 
 
 
 }
 
-/* .project_image {
+.project_image {
 
 	position: relative;
 	left: 0%;
 	top: 0%;
 	width: 60%;
 	height:100%;
-	border: thin solid #EEEDF0ff;
+	/* border: thin solid #EEEDF0ff; */
 
 }
 
@@ -944,11 +520,11 @@ main div {
 
 .project_details {
 	position: relative;
-	left: 60%;
+	/* left: 60%; */
 	top: 8%;
 	width: 40%;
 	height:92%;
-	border: thin solid #EEEDF0ff;
+	/* border: thin solid #EEEDF0ff; */
 	display: flex;
 	flex-direction: column;
 	font-family: Consolas;
@@ -964,14 +540,14 @@ main div {
 	background-color: #EEEDF0ff;
 } */
 
-/* .project_name {
+.project_name {
 	position: relative;
 	width: 100%;
 	height: 10%;
-	border: thin solid #EEEDF0ff;
+	/* border: thin solid #EEEDF0ff; */
 	font-size: 3.2rem;
 	font-weight: bold;
-	background-color: #EEEDF0ff;
+	/* background-color: #EEEDF0ff; */
 
 }
 
@@ -980,8 +556,8 @@ main div {
 	width: 100%;
 	height: 12%;
 	font-size: 1.2rem;
-	border: thin solid #EEEDF0ff;
-	background-color: #EEEDF0ff;
+	/* border: thin solid #EEEDF0ff; */
+	/* background-color: #EEEDF0ff; */
 
 }
 
@@ -996,10 +572,10 @@ main div {
 	position: relative;
 	width: 100%;
 	height: 7%;
-	border: thin solid #EEEDF0ff;
+	/* border: thin solid #EEEDF0ff; */
 
 	
-	background-color: #EEEDF0ff;
+	/* background-color: #EEEDF0ff; */
 
 }
 
@@ -1016,8 +592,8 @@ main div {
 	width: 85%;
 	height: 71%;
 	font-size: 1.2rem;
-	border: thin solid #EEEDF0ff;
-	background-color: #EEEDF0ff;
+	/* border: thin solid #EEEDF0ff; */
+	/* background-color: #EEEDF0ff; */
 
 }
 
@@ -1026,7 +602,7 @@ main div {
 
 	font-weight: bold;
 
-}  */
+}
 
 /* .custom_cursor { */
 

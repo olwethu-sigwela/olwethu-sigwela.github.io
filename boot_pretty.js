@@ -406,6 +406,7 @@ function mergeText(e, t, o, r, n, a) {
 }
 
 function wrap(e, t = 0) {
+    // console.log("e = " + e)
     if (0 == t) return measure(e);
     const o = e.split("\n");
     let r = "",
@@ -633,8 +634,13 @@ function int2rgb(e) {
 }
 const PALETTE = [int2rgb(43690), int2rgb(11141120), int2rgb(11162880), int2rgb(5592575), int2rgb(5635925), int2rgb(5636095), int2rgb(16733525), int2rgb(16733695), int2rgb(16777215)],
     baseColors = {
-        a: rgb(120, 120, 120),
-        b: rgb(90, 90, 90)
+        a: rgb(238, 237, 240),
+        b: rgb(143, 182, 195)
+
+        // a: rgb(143, 182, 195),
+        // b:  rgb(238, 237, 240)
+        // a: rgb(238, 237, 240),
+        // b: rgb(143, 182, 195)
     },
     currentColors = {
         ...baseColors
@@ -789,31 +795,31 @@ function post(e, t, o, r) {
 }
 
 function flatten(e, t) {
-    for (const o of e.childNodes)
-        if (0 == o.childNodes.length) {
-            if (o.nodeType == Node.TEXT_NODE) {
-                const e = o.textContent.trim();
-                if (e) {
-                    const r = o.parentNode.tagName,
-                        n = {
-                            text: e,
-                            tag: r
-                        };
-                    if (Object.keys(o.parentNode.dataset) && (n.data = o.parentNode.dataset), "A" == r) {
-                        const e = o.parentNode.attributes,
-                            t = e.target ? ` target='${e.target.nodeValue}'` : "",
-                            r = e.href ? ` href='${e.href.nodeValue}'` : "";
-                        n.beginHTML = `<a${r}${t}>`, n.endHTML = "</a>"
-                    }
-                    t.push(n)
-                }
-            } else if (o.nodeType == Node.ELEMENT_NODE) {
-                const e = {
-                    tag: o.tagName
-                };
-                t.push(e)
-            }
-        } else flatten(o, t)
+    // for (const o of e.childNodes)
+    //     if (0 == o.childNodes.length) {
+    //         if (o.nodeType == Node.TEXT_NODE) {
+    //             const e = o.textContent.trim();
+    //             if (e) {
+    //                 const r = o.parentNode.tagName,
+    //                     n = {
+    //                         text: e,
+    //                         tag: r
+    //                     };
+    //                 // if (Object.keys(o.parentNode.dataset) && (n.data = o.parentNode.dataset), "A" == r) {
+    //                 //     const e = o.parentNode.attributes,
+    //                 //         t = e.target ? ` target='${e.target.nodeValue}'` : "",
+    //                 //         r = e.href ? ` href='${e.href.nodeValue}'` : "";
+    //                 //     n.beginHTML = `<a${r}${t}>`, n.endHTML = "</a>"
+    //                 // }
+    //                 t.push(n)
+    //             }
+    //         } else if (o.nodeType == Node.ELEMENT_NODE) {
+    //             const e = {
+    //                 tag: o.tagName
+    //             };
+    //             t.push(e)
+    //         }
+    //     } else flatten(o, t)
 }
 "ontouchstart" in window ? document.addEventListener("touchstart", (function(e) {
     e.target.href && (e.preventDefault(), location.href = e.target.href)
