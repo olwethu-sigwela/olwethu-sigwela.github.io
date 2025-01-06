@@ -120,32 +120,297 @@ main div {
 		top: 33%;
 		display: flex;
 		flex-direction: column;
+		height: 67%;
+	}
+
+	.actual_project_image {
+		width: 100%;
+		height: 100%;
+	}
+
+	/* .name_about a {
+		font-size: 12.95vw;
+	} */
+
+	
+
+	.about_contact {
+		position: relative;
+		left: 45%;
+		/* border: thin solid #bc8aca;  */
 	}
 	
+	.contact_contact {
+		position: relative;
+		left: 44.5%;
+		/* border: thin solid #bc8aca;  */
+	}
+
 	.about_content{
 		position: absolute;
 		top: 33%;
 		height:67%;
 		width:100%;
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
 		display: flex;
 		flex-direction: row;
+		font-family: Consolas;
 	}
 
 
 	.about_image {
 		position: relative;
-		border: thin solid #EEEDF0ff;
-		width: 50%;
+		/* border: thin solid #EEEDF0ff; */
+		width: 35%;
 		height: 100%;
+		/* border-radius: 50px; */
 		
 	}	
 
 	.about_text{
 		position: relative;
-		border: thin solid #EEEDF0ff;
-		width: 50%;
+		/* border: thin solid #EEEDF0ff; */
+		width: 33%;
 		height: 100%;
+	}
+
+	.about_text_filler{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 2%;
+		/* font-family: Consolas; */
+		/* font-size: 3rem; */
+		/* vertical-align: middle; */
+		
+	}
+
+	.about_text_heading{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 10%;
+		font-family: Consolas;
+		font-size: 3rem;
+		font-weight: bold;
+		/* vertical-align: middle; */
+		
+	}
+
+	.about_text_body{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 88%;
+	}
+
+	.about_image_container {
+		
+		position: relative;
+		top:10%;
+		left:15%;
+
+
+		height: 80%;
+		width: 80%;
+
+		/* border: thin solid #EEEDF0ff; */
+
+	}
+
+	.about_text_container {
+		
+		position: relative;
+		top:10%;
+		left:0%;
+
+		height: 80%;
+		width: 94%;
+
+		/* border: thin solid #EEEDF0ff; */
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.contact_details {
+		position: absolute;
+		top: 33%;
+		width: 100%;
+		height:67%;
+
+		/* border: thin solid #EEEDF0ff; */
+
+	}
+	
+}
+
+
+
+
+@media only screen  and (min-width: 1003px){
+	.name_about a, .name a, .name_not_main a, .name_contact a, .name_work a {
+		font-size: 12.99vw;
+	}
+}
+
+
+
+@media only screen  and (min-width: 651px) and (max-width: 991px){
+	.project{
+		flex-direction: column;
+		
+	}
+
+	.actual_project_image {
+		width: 100%;
+		height: 70%;
+	}
+
+	/* .project_details {
+		position: relative;
+		top: 50%;
+	} */
+
+	.project_list{
+		height: 100%;
+		width: 100%;
+	}
+
+	/* .project_image_container{
+		width: 100%;
+	} */
+	.project {
+		/* border: thin solid #EEEDF0ff; */
+		height: 1000%;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.project_image {
+
+		position: relative;
+		left: 0%;
+		top: 0%;
+		width: 100%;
+		height:50%;
+		/* border: thin solid #EEEDF0ff; */
+	
+	}
+	/* .project_image_container img {
+		height:100%;
+		width: 100%;
+	} */
+	.project_details {
+		position: relative;
+		/* left: 60%; */
+		/* top: 8%; */
+		bottom: 0%;
+		width: 100%;
+		height:50%;
+		/* border: thin solid #EEEDF0ff; */
+		display: flex;
+		flex-direction: column;
+		font-family: Consolas;
+		/* text-align: right; */
+
+
+	
+	}
+
+	.project_description {
+		width: 100%;
+		right: 0%;
+		/* border: thin solid #EEEDF0ff; */
+	}
+	
+}
+
+
+@media only screen and (min-width: 900px){
+	.name_contact a {
+		font-size: 12.90vw;
+	}
+}
+
+
+@media only screen  and (max-width: 423px){
+	.name_mobile div{
+		font-size: 25vw;
+	}
+}
+
+@media only screen  and (min-width: 650px){
+	.name_about a, .name a, .name_not_main a, .name_contact a, .name_work a {
+		font-size: 12.7vw;
+	}
+}
+
+@media only screen and (min-width: 651px) and (max-width: 991px){
+	
+	.about_content{
+		position: absolute;
+		top: 46%;
+		height:146%;
+		width:100%;
+		/* border: thin solid #EEEDF0ff; */
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.about_text_body a {
+		color: #8FB6C3;
+		text-decoration: underline;
+	}
+	.about_text_filler{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 2%;
+		/* font-family: Consolas; */
+		/* font-size: 3rem; */
+		/* vertical-align: middle; */
+		
+	}
+
+	.about_text_heading{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 10%;
+		font-family: Consolas;
+		font-size: 3rem;
+		font-weight: bold;
+		/* vertical-align: middle; */
+		
+	}
+
+	.about_text_body{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 88%;
+	}
+
+	.actual_project_image {
+		width: 100%;
+		height: 100%;
+	}
+
+	.about_image {
+		position: relative;
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 50%;
+		
+		
+	}	
+
+	.about_text{
+		position: relative;
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 50%;
 	}
 
 
@@ -158,9 +423,12 @@ main div {
 		height: 80%;
 		width: 80%;
 
-		border: thin solid #EEEDF0ff;
+		/* background-image: url("olwethu.jpg"); */
 
+		/* border: thin solid #EEEDF0ff; */
+		/* display: flex; */
 	}
+
 
 	.about_text_container {
 		
@@ -171,18 +439,72 @@ main div {
 		height: 80%;
 		width: 80%;
 
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
+
+		display: flex;
+		flex-direction: column;
+
 
 	}
 	
+
 }
 
 @media only screen and (max-width: 650px){
+	.about_text_body a {
+		color: #8FB6C3;
+		text-decoration: underline;
+	}
+	.about_text_filler{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 2%;
+		/* font-family: Consolas; */
+		/* font-size: 3rem; */
+		/* vertical-align: middle; */
+		
+	}
+
+	.olwethu_image {
+		/* position: relative; */
+		width: 80vw;
+		height: 60vh;	
+		/* border-radius: 15px;	 */
+	}
+
+
+	.about_text_heading{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 10%;
+		font-family: Consolas;
+		font-size: 3rem;
+		font-weight: bold;
+		/* vertical-align: middle; */
+		
+	}
+
+	.about_text_body{
+		/* position: relative; */
+		/* border: thin solid #EEEDF0ff; */
+		width: 100%;
+		height: 88%;
+	}
+
+	.actual_project_image {
+		width: 100%;
+		height: 100%;
+	}
 
 	.the_header {
 		visibility: hidden;
 	}
-
+	
+	/* .name_about a {
+		font-size: 12.75vw;
+	} */
 	.the_header_mobile{
 		visibility: visible;
 	}
@@ -191,6 +513,9 @@ main div {
 		visibility: visible;
 		left: 17%;	
 	}
+
+	
+
 
 	.project_list {
 		top: 53%;
@@ -223,11 +548,21 @@ main div {
 		left: 5%;
 		height: 90%;
 		width: 90%;
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
 	
 	
 	}
 	
+	.contact_details {
+		position: absolute;
+		top: 60%;
+		width: 100%;
+		height:40%;
+
+		/* border: thin solid #EEEDF0ff; */
+
+	}
+
 	.project_details {
 		position: relative;
 		/* left: 60%; */
@@ -246,24 +581,25 @@ main div {
 	
 	.about_content{
 		position: absolute;
-		top: 65%;
-		height:67%;
+		top: 46%;
+		height:146%;
 		width:100%;
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
 		display: flex;
 		flex-direction: column;
 	}
 	.about_image {
 		position: relative;
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
 		width: 100%;
 		height: 50%;
+		
 		
 	}	
 
 	.about_text{
 		position: relative;
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
 		width: 100%;
 		height: 50%;
 	}
@@ -278,9 +614,12 @@ main div {
 		height: 80%;
 		width: 80%;
 
-		border: thin solid #EEEDF0ff;
+		/* background-image: url("olwethu.jpg"); */
 
+		/* border: thin solid #EEEDF0ff; */
+		/* display: flex; */
 	}
+
 
 	.about_text_container {
 		
@@ -291,7 +630,11 @@ main div {
 		height: 80%;
 		width: 80%;
 
-		border: thin solid #EEEDF0ff;
+		/* border: thin solid #EEEDF0ff; */
+
+		display: flex;
+		flex-direction: column;
+
 
 	}
 	
@@ -368,6 +711,52 @@ main div {
 }
 
 
+@media only screen and (min-width: 992px){
+
+.project{
+
+	flex-direction: row;
+	}
+
+	.project_details {
+		position: relative;
+		/* left: 60%; */
+		top: 8%;
+		width: 40%;
+		height:92%;
+		/* border: thin solid #EEEDF0ff; */
+		display: flex;
+		flex-direction: column;
+		font-family: Consolas;
+	
+	}
+
+	.project_image {
+
+		position: relative;
+		left: 0%;
+		top: 0%;
+		width: 60%;
+		height:100%;
+		/* border: thin solid #EEEDF0ff; */
+	
+	}
+}
+
+@media only screen and (min-width: 992px){
+.project_image {
+
+	position: relative;
+	left: 0%;
+	top: 0%;
+	width: 60%;
+	height:100%;
+	/* border: thin solid #EEEDF0ff; */
+
+}
+}
+
+
 @media only screen and (min-width: 650px){
 
 	.the_header {
@@ -382,46 +771,32 @@ main div {
 		visibility: hidden;
 	}
 
-	.project{
-
-	flex-direction: row;
-	}
-
-	.project_image {
-
-		position: relative;
-		left: 0%;
-		top: 0%;
-		width: 60%;
-		height:100%;
-		/* border: thin solid #EEEDF0ff; */
 	
+
+
+
+	
+	.olwethu_image {
+		/* position: relative; */
+		width: 100%;
+		height: 100%;	
+		/* border-radius: 15px;	 */
 	}
+
 	
 	.project_image_container {
 	
 		position: relative;
-		top: 5%;
+		top: 7%;
 		left: 5%;
-		height: 90%;
+		height: 120%;
 		width: 90%;
-		border: thin solid #EEEDF0ff;
-	
-	
-	}
-	
-	.project_details {
-		position: relative;
-		/* left: 60%; */
-		top: 8%;
-		width: 40%;
-		height:92%;
 		/* border: thin solid #EEEDF0ff; */
-		display: flex;
-		flex-direction: column;
-		font-family: Consolas;
+	
 	
 	}
+	
+
 	
 	/* .project_details div {
 	
@@ -459,7 +834,10 @@ main div {
 	
 	}
 	
-	
+	.about_text_body a {
+		color: #8FB6C3;
+		text-decoration: underline;
+	}
 	.project_github {
 		position: relative;
 		width: 100%;
@@ -481,7 +859,7 @@ main div {
 	
 	.project_description {
 		position: relative;
-		width: 85%;
+		width: 100%;
 		height: 71%;
 		font-size: 1.2rem;
 		/* border: thin solid #EEEDF0ff; */
@@ -1036,7 +1414,7 @@ main div {
 
 .name a{
 	font-family: Rockstar;
-	font-size: 11rem;
+	/* font-size: 11rem; */
 	/* color: #F6DCFD; */
 
 
@@ -1203,7 +1581,7 @@ main div {
 
 .name_not_main a{
 	font-family: Rockstar;
-	font-size: 11rem;
+	/* font-size: 11rem; */
 	/* color: #F6DCFD; */
 	
 	color: #012456ff;
@@ -1230,7 +1608,7 @@ main div {
 
 .name_work a{
 	font-family: Rockstar;
-	font-size: 11rem;
+	/* font-size: 11rem; */
 	/* color: #F6DCFD; */
 	color: #012456ff;
 
@@ -1252,8 +1630,8 @@ main div {
 
 .name_about a{
 	font-family: Rockstar;
-	font-size: 10.9rem;
-	/* color: #F6DCFD; */
+	/* font-size: 10.9rem; */
+	/* font-size: 12.95vw; */
 	color: #012456ff;
 
 	/* color: #EEEDF0ff; */
@@ -1312,6 +1690,37 @@ main div {
 	/* vertical-align: middle; */
 }
 
+
+.email {
+
+	position: relative;
+	top: 10%;
+	left: 2%;
+	font-size: 1.5rem;
+
+}
+
+.email a {
+
+	text-decoration: underline;
+	color: #8FB6C3;
+
+}
+
+
+
+.menu {
+	font-size: 5.7vw;
+	/* width: 100vw; */
+}
+
+
+
+.menu_work {
+	font-size: 5.7vw;
+	/* width: 100vw; */
+}
+
 .name_mobile {
 	z-index: 20;
 	position: absolute;
@@ -1348,6 +1757,8 @@ main div {
 	
 }
 
+
+
 .olwethu_mobile {
 	height: 48%;
 }
@@ -1360,7 +1771,7 @@ main div {
 
 .name_contact a{
 	font-family: Rockstar;
-	font-size: 11rem;
+	/* font-size: 10.9rem; */
 	/* color: #F6DCFD; */
 	color: #012456ff;
 
@@ -1384,7 +1795,7 @@ main div {
 	position: absolute;
 	/* top: 33%; */
 	width: 100%;
-	height: 67%;
+	
 	/* border: thin solid #EEEDF0ff; */
 	
 }
@@ -1392,8 +1803,8 @@ main div {
 .project {
 
 	position: relative;
-	height: 100%;
-	width: 100%;
+	/* height: 100%; */
+	/* width: 100%; */
 	/* border: thin solid #EEEDF0ff; */
 	display:flex;
 	/* flex-direction: row; */
