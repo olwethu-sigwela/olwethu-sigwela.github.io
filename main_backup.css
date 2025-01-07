@@ -43,7 +43,7 @@ body {
 }
 
 body {
-	font-size: 1em;
+	/* font-size: 1em; */
 	/* box-sizing: content-box; */
 	margin: 0;
 	font-family: Simple Console;
@@ -51,7 +51,7 @@ body {
 	font-weight: 400;
 	line-height: var(--line-height);
 	/* background-color: #F6DCFD; */
-
+	/* width: 100vw; */
 
 	background-color: #012456ff;
 }

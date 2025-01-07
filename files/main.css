@@ -115,7 +115,7 @@ main div {
 } */
 
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 960px){
 	.project_list {
 		top: 33%;
 		display: flex;
@@ -340,7 +340,7 @@ main div {
 	}
 }
 
-@media only screen  and (min-width: 650px){
+@media only screen  and (min-width: 960px){
 	.name_about a, .name a, .name_not_main a, .name_contact a, .name_work a {
 		font-size: 12.7vw;
 	}
@@ -450,7 +450,7 @@ main div {
 
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 960px){
 	.about_text_body a {
 		color: #8FB6C3;
 		text-decoration: underline;
@@ -757,7 +757,7 @@ main div {
 }
 
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 960px){
 
 	.the_header {
 		visibility: visible;
@@ -876,7 +876,7 @@ main div {
 
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 960px){
 
 	.the_header {
 		visibility: hidden;
@@ -1303,7 +1303,7 @@ main div {
 
 }
 
-/* @media only screen and (min-width: 650px){
+/* @media only screen and (min-width: 960px){
 
 	
 .name_mobile {
@@ -1317,7 +1317,7 @@ main div {
 
 
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 960px){
 
 	.the_header {
 		visibility: hidden;
