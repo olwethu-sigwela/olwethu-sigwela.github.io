@@ -621,7 +621,16 @@ function rgb2hex(e) {
     let t = Math.round(e.r).toString(16).padStart(2, "0"),
         o = Math.round(e.g).toString(16).padStart(2, "0"),
         r = Math.round(e.b).toString(16).padStart(2, "0");
-    return void 0 === e.a ? "#" + t + o + r : "#" + t + o + r + Math.round(255 * e.a).toString(16).padStart(2, "0")
+        // console.log("t = " + t)
+        // console.log("o = " + o)
+        // console.log("r = " + r)
+
+        // let returnValue = void 0 === e.a ? "#" + t + o + r : "#" + t + o + r + Math.round(255 * e.a).toString(16).padStart(2, "0")
+
+        let returnValue = void 0 === e.a ? "#" + t + o + r : "#" + t + o + r + "22"
+
+        // console.log("returnValue = " + returnValue)
+    return returnValue
 }
 
 function int2rgb(e) {
@@ -634,8 +643,8 @@ function int2rgb(e) {
 }
 const PALETTE = [int2rgb(43690), int2rgb(11141120), int2rgb(11162880), int2rgb(5592575), int2rgb(5635925), int2rgb(5636095), int2rgb(16733525), int2rgb(16733695), int2rgb(16777215)],
     baseColors = {
-        a: rgb(238, 237, 240),
-        b: rgb(143, 182, 195)
+        a: rgb(238, 237, 240),//, 0.5),
+        b: rgb(143, 182, 195)//, 0.5)
 
         // a: rgb(143, 182, 195),
         // b:  rgb(238, 237, 240)
