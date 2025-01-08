@@ -1470,6 +1470,7 @@ main div {
 .menu a:hover {
 	/* color: #bc8aca; */
 	color: #EEEDF0ff;
+	transition: 0.3s;
 }
 
 
@@ -1507,6 +1508,7 @@ main div {
 .menu_work a:hover {
 	/* color: #bc8aca; */
 	color: #EEEDF0ff;
+	transition: 0.3s;
 }
 
 .work{
