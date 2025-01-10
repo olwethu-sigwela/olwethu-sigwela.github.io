@@ -107,12 +107,9 @@ main div {
 	box-sizing: border-box;
 } */
 
-/* @media only screen and (min-width: 600px){
-	.name_mobile{
-		visibility: visible;
-		left: 40%;	
-	}
-} */
+
+
+
 
 
 @media only screen and (min-width: 960px){
@@ -335,7 +332,7 @@ main div {
 
 
 @media only screen  and (max-width: 423px){
-	.name_mobile div{
+	.name_mobile_text_container div{
 		font-size: 25vw;
 	}
 }
@@ -511,7 +508,7 @@ main div {
 
 	.name_mobile{
 		visibility: visible;
-		left: 17%;	
+		/* left: 17%;	 */
 	}
 
 	
@@ -767,7 +764,11 @@ main div {
 		visibility: hidden;
 	}
 
-	.name_mobile{
+	/* .name_mobile{
+		visibility: hidden;
+	} */
+
+	.name_mobile_container{
 		visibility: hidden;
 	}
 
@@ -886,433 +887,16 @@ main div {
 		visibility: visible;
 	}
 
-	.name_mobile{
+	/* .name_mobile{
 		visibility: visible;
 		left: 39%;	
+	} */
+
+
+	.name_mobile_container{
+		visibility: visible;
 	}
 }
-
-@media only screen and (max-width: 640px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 37%;	
-	}
-}
-
-
-@media only screen and (max-width: 625px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 36%;	
-	}
-}
-
-
-@media only screen and (max-width: 610px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 35%;	
-	}
-}
-
-@media only screen and (max-width: 595px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 34%;	
-	}
-}
-
-
-
-@media only screen and (max-width: 580px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 32%;	
-	}
-}
-
-
-
-@media only screen and (max-width: 565px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 30%;	
-	}
-}
-
-
-
-@media only screen and (max-width: 550px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 29%;	
-	}
-}
-
-
-@media only screen and (max-width: 540px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 27%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 525px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 26%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 517px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 25%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 510px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 23%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 500px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 21%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 490px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 19%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 475px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 17%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 465px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 16%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 457px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 14.5%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 449px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 13%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 440px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 11%;	
-	}
-
-	
-
-}
-
-@media only screen and (max-width: 432px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 7%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 415px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 4%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 400px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 1%;	
-	}
-
-	
-
-}
-
-
-@media only screen and (max-width: 389px){
-
-	.the_header {
-		visibility: hidden;
-	}
-
-	.the_header_mobile{
-		visibility: visible;
-	}
-
-	.name_mobile{
-		visibility: visible;
-		left: 0%;	
-	}
-
-	
-
-}
-
-/* @media only screen and (min-width: 960px){
-
-	
-.name_mobile {
-		
-	left: 19%;	
-}
-	
-
-} */
 
 
 
@@ -1470,7 +1054,7 @@ main div {
 .menu a:hover {
 	/* color: #bc8aca; */
 	color: #EEEDF0ff;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 
 
@@ -1508,7 +1092,7 @@ main div {
 .menu_work a:hover {
 	/* color: #bc8aca; */
 	color: #EEEDF0ff;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 
 .work{
@@ -1723,27 +1307,36 @@ main div {
 	/* width: 100vw; */
 }
 
-.name_mobile {
-	z-index: 20;
-	position: absolute;
-	bottom: 0%;
+
+
+/* .name_mobile_container_filler{
+	width: 15%;
+	height:100%;
+	border: thin solid #EEEDF0ff;
+} */
+
+
+/* .name_mobile { */
+	/* z-index: 20; */
+	/* position: absolute; */
+	/* bottom: 0%; */
 	/* left: 15%; */
-	width: 40%;
-	height: 30%;
-	/* background-color: #012456ff;; */
-	/* border: thin solid #EEEDF0ff; */
+	/* width: 40%; */
+	/* height: 30%; */
+	/* background-color: #012456ff;; don't uncomment*/
+	/* border: thin solid #EEEDF0ff; dont't uncomment*/
 
-	text-align: center;
-	font-family: Rockstar;
-	font-size: 6.5rem;
-	color: #012456ff;
+	/* text-align: center; */
+	/* font-family: Rockstar; */
+	/* font-size: 6.5rem; */
+	/* color: #012456ff; */
 
-	-webkit-text-stroke-color: #EEEDF0ff;
-	-webkit-text-stroke-width: 2px;
-	display: flex;
-	flex-direction: column;
+	/* -webkit-text-stroke-color: #EEEDF0ff; */
+	/* -webkit-text-stroke-width: 2px; */
+	/* display: flex; */
+	/* flex-direction: column; */
 	
-}
+/* } */
 
 .filler_mobile {
 	width: 100%;
@@ -1814,6 +1407,46 @@ main div {
 
 
 }
+
+.name_mobile_container{
+	z-index: 20;
+	position: absolute;
+	bottom: 0%;
+	height:30%;
+	width:100%;
+
+	/* border: thin solid #EEEDF0ff; */
+	display: flex;
+	flex-direction: row-reverse;
+
+	
+
+}
+
+
+.name_mobile_text_container {
+	/* visibility: hidden; */
+	z-index: 20;
+	position: relative;
+	bottom: 0%;
+	/* left: 15%; */
+	/* width: 40%; */
+	height: 100%;
+	/* background-color: #012456ff;; */
+	/* border: thin solid #EEEDF0ff; */
+
+	text-align: center;
+	font-family: Rockstar;
+	font-size: 6.5rem;
+	color: #012456ff;
+
+	-webkit-text-stroke-color: #EEEDF0ff;
+	-webkit-text-stroke-width: 2px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
 
 /* .project_image {
 
