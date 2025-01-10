@@ -1598,6 +1598,7 @@ main div {
 	background: #012456ff;
   } */
 
-  body{
+  .index_body{
 	overflow-x: hidden;
+	overflow-y: hidden;
   }
