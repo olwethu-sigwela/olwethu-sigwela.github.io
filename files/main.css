@@ -1391,7 +1391,7 @@ main div {
 	/* top: 33%; */
 	width: 100%;
 	
-	/* border: thin solid #EEEDF0ff; */
+	/* border: thin solid #EEEDF0ff; */ 
 	
 }
 
@@ -1483,6 +1483,8 @@ main div {
 	font-family: Consolas;
 
 }
+
+
 
 /* .project_details div {
 
@@ -1586,4 +1588,16 @@ main div {
 	/* z-index: 10000; Ensure it stays on top */
 	/* transform: translate(-50%, -50%); Center cursor on pointer */
   /* } */
+
+
+  /* .project_description {
+	overflow-y:scroll;
+  } */
   
+  /* ::-webkit-scrollbar-track{
+	background: #012456ff;
+  } */
+
+  body{
+	overflow-x: hidden;
+  }
