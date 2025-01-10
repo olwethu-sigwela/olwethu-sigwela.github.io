@@ -113,6 +113,11 @@ main div {
 
 
 @media only screen and (min-width: 960px){
+
+	.work_body{
+		overflow-y: hidden;
+	}
+
 	.project_list {
 		top: 33%;
 		display: flex;
@@ -121,8 +126,8 @@ main div {
 	}
 
 	.actual_project_image {
-		width: 100%;
-		height: 100%;
+		height: 51%;
+		width: auto;
 	}
 
 	/* .name_about a {
@@ -719,7 +724,7 @@ main div {
 		position: relative;
 		/* left: 60%; */
 		top: 8%;
-		width: 40%;
+		width: 58%;
 		height:92%;
 		/* border: thin solid #EEEDF0ff; */
 		display: flex;
@@ -733,14 +738,14 @@ main div {
 		position: relative;
 		left: 0%;
 		top: 0%;
-		width: 60%;
+		width: 42%;
 		height:100%;
 		/* border: thin solid #EEEDF0ff; */
 	
 	}
 }
-
-@media only screen and (min-width: 992px){
+/* 
+ @media only screen and (min-width: 992px){
 .project_image {
 
 	position: relative;
@@ -748,10 +753,10 @@ main div {
 	top: 0%;
 	width: 60%;
 	height:100%;
-	/* border: thin solid #EEEDF0ff; */
+	border: thin solid #EEEDF0ff;
 
-}
-}
+} 
+}*/
 
 
 @media only screen and (min-width: 960px){
@@ -861,7 +866,7 @@ main div {
 	.project_description {
 		position: relative;
 		width: 100%;
-		height: 71%;
+		height: 36%;
 		font-size: 1.2rem;
 		/* border: thin solid #EEEDF0ff; */
 		/* background-color: #EEEDF0ff; */
@@ -1590,15 +1595,22 @@ main div {
   /* } */
 
 
-  /* .project_description {
+  .project_description {
 	overflow-y:scroll;
-  } */
+  }
   
   /* ::-webkit-scrollbar-track{
 	background: #012456ff;
   } */
-
+.work_body{
+	overflow-x: hidden;
+}
   .index_body{
 	overflow-x: hidden;
 	overflow-y: hidden;
+  }
+
+  ::selection{
+	background: #EEEDF0ff;
+	color:#012456ff;
   }
