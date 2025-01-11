@@ -126,8 +126,9 @@ main div {
 	}
 
 	.actual_project_image {
-		height: 51%;
-		width: auto;
+		
+		width: 100%;
+		height: auto;
 	}
 
 	/* .name_about a {
@@ -866,7 +867,7 @@ main div {
 	.project_description {
 		position: relative;
 		width: 100%;
-		height: 36%;
+		height: 66%;
 		font-size: 1.2rem;
 		/* border: thin solid #EEEDF0ff; */
 		/* background-color: #EEEDF0ff; */
@@ -1314,34 +1315,6 @@ main div {
 
 
 
-/* .name_mobile_container_filler{
-	width: 15%;
-	height:100%;
-	border: thin solid #EEEDF0ff;
-} */
-
-
-/* .name_mobile { */
-	/* z-index: 20; */
-	/* position: absolute; */
-	/* bottom: 0%; */
-	/* left: 15%; */
-	/* width: 40%; */
-	/* height: 30%; */
-	/* background-color: #012456ff;; don't uncomment*/
-	/* border: thin solid #EEEDF0ff; dont't uncomment*/
-
-	/* text-align: center; */
-	/* font-family: Rockstar; */
-	/* font-size: 6.5rem; */
-	/* color: #012456ff; */
-
-	/* -webkit-text-stroke-color: #EEEDF0ff; */
-	/* -webkit-text-stroke-width: 2px; */
-	/* display: flex; */
-	/* flex-direction: column; */
-	
-/* } */
 
 .filler_mobile {
 	width: 100%;
@@ -1403,7 +1376,7 @@ main div {
 .project {
 
 	position: relative;
-	/* height: 100%; */
+	height: 100%;
 	/* width: 100%; */
 	/* border: thin solid #EEEDF0ff; */
 	display:flex;
@@ -1453,150 +1426,10 @@ main div {
 }
 
 
-/* .project_image {
-
-	position: relative;
-	left: 0%;
-	top: 0%;
-	width: 60%;
-	height:100%;
-	border: thin solid #EEEDF0ff;
-
-}
-
-.project_image_container {
-
-	position: relative;
-	top: 5%;
-	left: 5%;
-	height: 90%;
-	width: 90%;
-	border: thin solid #EEEDF0ff;
-
-
-}
-
-.project_details {
-	position: relative;
-	left: 60%;
-	top: 8%;
-	width: 40%;
-	height:92%;
-	border: thin solid #EEEDF0ff;
-	display: flex;
-	flex-direction: column;
-	font-family: Consolas;
-
-}
-
-
-
-/* .project_details div {
-
-	position: relative;
-	width: 100%;
-	height: 20%;
-	border: thin solid #EEEDF0ff;
-	background-color: #EEEDF0ff;
-} */
-
-/* .project_name {
-	position: relative;
-	width: 100%;
-	height: 10%;
-	border: thin solid #EEEDF0ff;
-	font-size: 3.2rem;
-	font-weight: bold;
-	background-color: #EEEDF0ff;
-
-}
-
-.project_languages {
-	position: relative;
-	width: 100%;
-	height: 12%;
-	font-size: 1.2rem;
-	border: thin solid #EEEDF0ff;
-	background-color: #EEEDF0ff;
-
-}
-
-.span_languages {
-
-	font-weight: bold;
-
-}
-
-
-.project_github {
-	position: relative;
-	width: 100%;
-	height: 7%;
-	border: thin solid #EEEDF0ff;
-
-	
-	background-color: #EEEDF0ff;
-
-}
-
-.project_github a {
-
-	color: #8FB6C3;
-	text-decoration: underline;
-	font-size: 1.5rem;
-
-}
-
-.project_description {
-	position: relative;
-	width: 85%;
-	height: 71%;
-	font-size: 1.2rem;
-	border: thin solid #EEEDF0ff;
-	background-color: #EEEDF0ff;
-
-}
-
-
-.span_description {
-
-	font-weight: bold;
-
-}  */
-
-/* .custom_cursor { */
-
-	
-	/* width:100%; */
-	/* height:100%; */
-	/* mix-blend-mode: hue; */
-	/* background-color: #0000ff; */
-	/* cursor: url("Ellipse 31.png"), auto; */
-	/* z-index: 10000; */
-
-/* } */
-
-/* body { */
-	/* cursor: none; */
-  /* } */
-
-/* .custom_cursor { */
-	/* position: fixed; */
-	/* top: 0; */
-	/* left: 0; */
-	/* width: 100%; Adjust size */
-	/* height: 100%; */
-	/* background-color: rgba(255, 0, 0, 0.3); Semi-transparent red */
-	/* border-radius: %; */
-	/* pointer-events: none; Prevent cursor from blocking clicks */
-	/* mix-blend-mode: multiply; Or any other blend mode */
-	/* z-index: 10000; Ensure it stays on top */
-	/* transform: translate(-50%, -50%); Center cursor on pointer */
-  /* } */
-
 
   .project_description {
 	overflow-y:scroll;
+	/* box-shadow: 2px 2px 3px black inset; */
   }
   
   /* ::-webkit-scrollbar-track{
@@ -1614,3 +1447,4 @@ main div {
 	background: #EEEDF0ff;
 	color:#012456ff;
   }
+
