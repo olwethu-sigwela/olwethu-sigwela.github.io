@@ -406,7 +406,7 @@ main div {
 
 	.project_details_panel_filler{
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: row-reverse;
 		/* border: thin solid #EEEDF0ff; */
 	}
 
@@ -414,7 +414,7 @@ main div {
 		position: relative;
 		/* border: thin solid #EEEDF0ff; */
 		width: 10%;
-		left: 90%;
+		/* left: 80%; */
 	}
 	.close_button:hover{
 		cursor:pointer;
