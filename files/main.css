@@ -405,6 +405,10 @@ main div {
 @media only screen and (max-width: 991px){
 
 	/* .web */
+
+	.web_wrapper {
+		overflow: hidden;
+	}
 	body{
 		overflow: hidden;
 	}
