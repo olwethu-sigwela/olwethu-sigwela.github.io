@@ -406,6 +406,12 @@ main div {
 
 	/* .web */
 
+	.top_filler{
+		width: 100%;
+		height: 2%;
+		/* border:thin solid #EEEDF0ff; */
+	}
+
 	.web_wrapper {
 		overflow: hidden;
 		position: fixed;
