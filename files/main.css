@@ -409,6 +409,7 @@ main div {
 		flex-direction: column-reverse;
 		/* border: thin solid #EEEDF0ff; */
 	}
+
 	.close_button{
 		position: relative;
 		/* border: thin solid #EEEDF0ff; */
@@ -441,6 +442,9 @@ main div {
 	}
 
 	.project_details_panel .project_details .project_name {
+
+		/* --line-height: 0px !important; */
+		line-height: 60px;
 		/* border: thin solid #EEEDF0ff; */
 		position: relative;
 		width: 100%;
