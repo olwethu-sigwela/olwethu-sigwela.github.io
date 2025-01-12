@@ -408,6 +408,7 @@ main div {
 
 	.web_wrapper {
 		overflow: hidden;
+		position: fixed;
 	}
 	body{
 		overflow: hidden;
