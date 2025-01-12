@@ -408,19 +408,21 @@ main div {
 		display: flex;
 		flex-direction: row-reverse;
 		/* border: thin solid #EEEDF0ff; */
+		/* margin-right: 50px; */
 	}
 
 	
-	.close_button_filler{
-		width: 5%;
+	/* .close_button_filler{ */
+		/* width: 5%; */
 		/* border: thin solid #EEEDF0ff; */
-	}
+	/* } */
 
 
 	.close_button{
 		position: relative;
 		/* border: thin solid #EEEDF0ff; */
-		width: 10%;
+		width: 20%;
+		text-align: right;
 		/* left: 80%; */
 	}
 	.close_button:hover{
