@@ -403,7 +403,9 @@ main div {
 
 
 @media only screen and (max-width: 991px){
-
+	.body{
+		overflow: hidden;
+	}
 	.project_details_panel_filler{
 		display: flex;
 		flex-direction: row-reverse;
