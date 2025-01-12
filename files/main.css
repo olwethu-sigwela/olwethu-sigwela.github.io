@@ -410,6 +410,13 @@ main div {
 		/* border: thin solid #EEEDF0ff; */
 	}
 
+	
+	.close_button_filler{
+		width:10%;
+		/* border: thin solid #EEEDF0ff; */
+	}
+
+
 	.close_button{
 		position: relative;
 		/* border: thin solid #EEEDF0ff; */
