@@ -273,7 +273,7 @@ main div {
 }
 
 
-@media only screen and (min-width: 530px) and (max-width: 534px){
+@media only screen and (min-width: 350px) and (max-width: 534px){
 	.project_portrait .project_name {
 		font-size: 2.5rem;
 	}
@@ -298,7 +298,7 @@ main div {
 	
 }
 
-@media only screen and (max-width: 530px){
+@media only screen and (max-width: 350px){
 	.project_portrait .project_name {
 		font-size: 11.7vw;
 	}
@@ -560,8 +560,8 @@ main div {
 
 	.project_details_panel{
 		border: none;
-		width:97.8%;
-		max-width:97.8vw;
+		width:100%;
+		max-width:100vw;
 		right: 0%;
 	}
 	.project_details_panel{
