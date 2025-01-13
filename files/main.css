@@ -1636,12 +1636,12 @@ main div {
 
 
   .the_header_top{
-	height: 13%;
+	height: 17%;
   }
   .menu_top{
 	display: flex;
 	flex-direction: row-reverse;
-	height: 65%;
+	height: 60%;
 		
   }
 
