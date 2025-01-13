@@ -4,6 +4,13 @@
 	/* --font-size-change: 1;   */
 	/* --c1: 16ch; */
 	/* --c2: 32ch; */
+
+	
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden; 
 }
 
 a {
