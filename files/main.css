@@ -340,9 +340,9 @@ main div {
 }
 
 
-@media only screen  and (max-width: 423px){
+@media only screen and (max-width: 500px){
 	.name_mobile_text_container div{
-		font-size: 25vw;
+		font-size: 20vw;
 	}
 }
 
@@ -1637,22 +1637,28 @@ main div {
 
   .the_header_top{
 	height: 17%;
+	width: 100%;
+	max-width: 100vw;
   }
   .menu_top{
 	display: flex;
 	flex-direction: row-reverse;
 	height: 60%;
+	width:100%;
+	max-width:100vw;
+	font-size: clamp(1rem, 5vw, 5rem);
 		
   }
 
   .menu_top a {
-	
+	min-width: 0;
 	/* border: thin solid #EEEDF0ff; */
 	height: 100%;
 	top: 0%;
 	display: flex;
 	flex-direction: column-reverse;
 	position: relative;
+	/* overflow-x:hidden; */
 	
 
   }
@@ -1682,3 +1688,24 @@ main div {
 	text-align: right;
 	width: 22%;
   }
+
+  /* .olwethu_mobile{
+	display: flex;
+	height: fit-content;
+	width: fit-content;
+  }
+
+  .sigwela_mobile{
+	display:flex;
+	height: fit-content;
+	width: fit-content;
+  } */
+
+  /* .index_body{
+	overflow: scroll;
+} */
+
+.index_body{
+	max-width: 100vw;
+	max-height: 100vh;
+}
