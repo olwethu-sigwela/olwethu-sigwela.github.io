@@ -129,23 +129,69 @@
 
 	
 	
-	<div class = "the_header_mobile">
+		<div id="headerButtonMobile" class = "header_button_mobile" onclick="displayHeader()">
+			<div class = "bar-dark"></div>
+			<div class = "bar-light"></div>
+			<div class = "bar-dark"></div>
+			<div class = "bar-light"></div>
+			<div class = "bar-dark"></div>
+			<div class = "bar-light"></div>
+			<div class = "bar-dark"></div>
+		</div>
 
-		
+		<div class = "the_header_mobile" id="theHeaderMobile">
 
 			
-		<div class = "menu">
-			<a href="index.html">HOME</a>
-			<a href="work.html">WORK</a>
-			<a href="about.html">ABOUT</a>
-			<a  href="contact.html">CONTACT</a>
+
+				
+			<div class = "menu">
+				<a href="index.html">HOME</a>
+				<a href="work.html">WORK</a>
+				<a href="about.html" >ABOUT</a>
+				<a  href="contact.html" >CONTACT</a>
 
 
+			</div>
 		</div>
-	</div>
 
-		</main>
 		
+		</main>
+
+		<script type = "text/javascript">
+			let headerVisible = false;
+
+			function displayHeader(){
+				document.getElementById("theHeaderMobile").style.visibility = "visible"
+				document.getElementById("headerButtonMobile").style.visibility = "hidden"
+				console.log("ran displayHeader()")
+				headerVisible = true;
+			}
+
+
+			document.onclick = function(e){
+
+				let headerWidth = document.querySelector(".the_header_mobile").offsetWidth
+				let headerHeight = document.querySelector(".the_header_mobile").offsetHeight
+
+				console.log("e.pageX = " + e.pageX)
+				console.log("e.pageY = " + e.pageY)
+
+				if (!(e.pageX <= headerWidth && e.pageY <= headerHeight)){
+					console.log("closing header")
+					document.getElementById("theHeaderMobile").style.visibility = "hidden"
+				document.getElementById("headerButtonMobile").style.visibility = "visible"
+				}
+				else{
+					console.log("keeping header open")
+				}
+
+
+
+
+			}
+
+		</script>
+			
 		<script type="text/javascript">
 			function displayProjectPanel(){
 				document.getElementById("ProjectDetailsPanel").style.display = "flex"

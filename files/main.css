@@ -298,6 +298,8 @@ main div {
 	
 }
 
+
+
 @media only screen and (max-width: 350px){
 	.project_portrait .project_name {
 		font-size: 11.7vw;
@@ -517,6 +519,39 @@ main div {
 @media only screen and (max-width: 534px){
 
 	/* .web */
+	.header_button_mobile{
+		z-index: 30;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 60px;
+		height: 60px;
+
+		/* border: thin solid #EEEDF0ff; */
+		background-color: #012456ff;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.header_button_mobile:hover{
+		cursor: pointer;
+	}
+
+	.header_button_mobile div {
+		position: relative;
+		left: 10%;
+		width: 80%;
+		height: 14.29%;
+		border-radius: 4px;
+		/* border: thin solid #EEEDF0ff; */
+	}
+
+	.bar-light {
+		background-color: #EEEDF0ff;
+	}
+
+
 
 	.top_filler{
 		width: 100%;
@@ -712,8 +747,13 @@ main div {
 		font-size: 12.75vw;
 	} */
 	.the_header_mobile{
+		visibility: hidden;
+	}
+
+	.index_body .the_header_mobile {
 		visibility: visible;
 	}
+
 
 	.name_mobile{
 		visibility: visible;
@@ -726,7 +766,7 @@ main div {
 	.project_list {
 		position: absolute;
 		display: flex;
-		top: 50%;
+		top: 12%;
 		height: 70%;
 		width: 100%;
 		/* border: thin solid #EEEDF0ff; */
@@ -802,17 +842,18 @@ main div {
 	
 	.contact_details {
 		position: absolute;
-		top: 60%;
+		top: 12%;
 		width: 100%;
 		height:40%;
-		font-size:5vw;
+		/* font-size: clamp(1rem, 5vw, 1rem); */
+		font-size: 1rem;
 
 		/* border: thin solid #EEEDF0ff; */
 
 	}
 
 	.email{
-		font-size: 5vw;
+		font-size: 1rem;
 	}
 
 
@@ -820,8 +861,10 @@ main div {
 	.about_content{
 		position: absolute;
 		/* top: 46%; */
-		height:146%;
-		width:100%;
+		top: 12%;
+		height:87%;
+		width:90%;
+		left: 5%;
 		/* border: thin solid #EEEDF0ff; */
 		display: flex;
 		flex-direction: column;
@@ -839,8 +882,27 @@ main div {
 		position: relative;
 		/* border: thin solid #EEEDF0ff; */
 		width: 100%;
-		height: 50%;
+		height: 100%;
 	}
+/* 
+	.about_text_container{
+		border: thin solid #EEEDF0ff;
+	} */
+
+	/* .about_text_filler{
+		border: thin solid #EEEDF0ff;
+	} */
+/* 
+	.about_text_heading{
+		border: thin solid #EEEDF0ff;
+	} */
+
+	.about_text_body{
+		/* border: thin solid #EEEDF0ff; */
+		height: 88%;
+	}
+
+
 
 
 	.about_image_container {
@@ -1147,8 +1209,13 @@ main div {
 	}
 
 	.the_header_mobile{
+		visibility: hidden;
+	}
+
+	.index_body .the_header_mobile {
 		visibility: visible;
 	}
+
 
 	/* .name_mobile{
 		visibility: visible;
@@ -1171,8 +1238,13 @@ main div {
 	}
 
 	.the_header_mobile{
+		visibility: hidden;
+	}
+
+	.index_body .the_header_mobile {
 		visibility: visible;
 	}
+
 
 	.name_mobile{
 		visibility: visible;
@@ -1484,7 +1556,7 @@ main div {
 	position: relative;
 	top: 10%;
 	left: 2%;
-	font-size: 5vw;
+	font-size: 1rem;
 
 }
 
