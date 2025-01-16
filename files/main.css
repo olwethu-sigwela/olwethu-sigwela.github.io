@@ -1545,6 +1545,7 @@ main div {
 	width: 100%;
 	/* border: thin solid #EEEDF0ff; */
 	display: block;
+	/* font-size: 2rem; */
 	font-size: 2rem;
 	text-align: center;
 	/* vertical-align: middle; */
@@ -1680,7 +1681,9 @@ main div {
 
 	text-align: center;
 	font-family: Rockstar;
-	font-size: 6.5rem;
+	/* font-size: 6.5rem; */
+	/* font-size: clamp(3rem, 17vw, 6.5rem); */
+	font-size: 17vmin;
 	color: #012456ff;
 
 	-webkit-text-stroke-color: #EEEDF0ff;
