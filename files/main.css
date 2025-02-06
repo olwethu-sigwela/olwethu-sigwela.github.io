@@ -277,10 +277,14 @@ main div {
 	.project_portrait .project_name {
 		font-size: 2.5rem;
 	}
-
+	.project_image_container .filler {
+		width: 5%;
+		height: 100%;
+		/* border: thin solid #EEEDF0ff; */
+	}
 	.actual_project_image{
 		/* position: relative; */
-		width: auto;
+		width: 95%;
 		height: 100%;
 		/* width: auto; */
 	}
@@ -307,9 +311,15 @@ main div {
 	.project_portrait .project_image_container {
 		height:fit-content;
 	}
+
+	.project_image_container .filler {
+		width: 5%;
+		height: 100%;
+		/* border: thin solid #EEEDF0ff; */
+	}
 	.actual_project_image{
 		/* position: relative; */
-		width: 100%;
+		width: 95%;
 		height: auto;
 		/* border: thin solid #012456ff;
 		border-radius: 20px; */
@@ -830,7 +840,8 @@ main div {
 		/* border: thin solid #EEEDF0ff; */
 		display: flex;
 		/* align-items: center; */
-		justify-content: right;
+		/* justify-content: right; */
+		flex-direction: row-reverse;
 	
 	}
 
